@@ -11,6 +11,7 @@ public class GoogleSearchTest {
 		WebDriver driver=new EdgeDriver();
 		driver.get("https://www.google.com/");
 		driver.findElement(By.xpath("(//input[@type='text'])[1]")).sendKeys("testing");
+		System.out.println("Jhansi");
 
 }
 }
